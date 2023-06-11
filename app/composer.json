@@ -1,0 +1,23 @@
+{
+  "name": "app/test-custom",
+  "authors": [
+    {
+      "name": "David Karapetyan",
+      "email": "davidkarapetyan996@gmail.com"
+    }
+  ],
+  "minimum-stability": "alpha",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=8.1",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "./"
+    }
+  },
+  "scripts": {
+    "migrate": "@php web/migrate.php "
+  }
+}

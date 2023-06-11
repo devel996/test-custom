@@ -1,0 +1,6 @@
+## Use Cases
+
+```
+index
+sendData
+```
